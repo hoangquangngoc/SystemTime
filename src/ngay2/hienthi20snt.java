@@ -13,8 +13,9 @@ public class hienthi20snt{
         while (count<numbers){
             boolean check = true;
             for (int i =2 ; i<=Math.sqrt(number);i++){
-                if (number%i==0 && i!=1){
+                if (number%i==0 ){
                     check = false;
+                    break;
 
                 }
             }
